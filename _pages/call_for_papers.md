@@ -4,7 +4,7 @@ permalink: /call_for_papers/
 title: "Call for papers"
 description: 
 nav: true
-nav_order: 1
+nav_order: 2
 
 top_image: /assets/img/ICASSP25/HyPeCASP2025.png
 top_image_alt: "ICASSP2025"
