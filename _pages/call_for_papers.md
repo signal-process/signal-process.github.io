@@ -11,7 +11,4 @@ nav_order: 1
   <head>
     <meta http-equiv="refresh" content="0; url=/assets/pdf/CFP_HiPeCASP.pdf" />
   </head>
-  <body>
-    <p>If you are not redirected automatically, <a href="/assets/pdf/CFP_HiPeCASP.pdf">click here</a>.</p>
-  </body>
 </html>
