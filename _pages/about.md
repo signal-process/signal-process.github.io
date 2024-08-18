@@ -28,12 +28,7 @@ Information and communications technology shows enormous needs of and poses uniq
 ---
 #### Organizing Committee
 
-+ **Fauzia Ahmad** (Temple University) 
-+ **Chun-Lin Liu** (National Taiwan University)
-+ **Heng Qiao** (Shanghai Jiao Tong University) 
-+ **Robin Rajamäki** (Aalto University)
-+ **Kaushallya Adhikari** (University of Rhode Island)
-+ **Ziping Zhao** (ShanghaiTech University)
+{% include committees.html %}
 
 ---
 
