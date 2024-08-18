@@ -7,8 +7,8 @@ nav: true
 nav_order: 1
 ---
 
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=/assets/pdf/CFP_HiPeCASP.pdf" />
-  </head>
-</html>
+<script>
+    window.onload = function() {
+        window.open('/assets/pdf/CFP_HiPeCASP.pdf', '_blank');
+      };
+</script>
