@@ -2,9 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Graph Signal Processing Workshop # the website title (if blank, full name will be used instead)
-header: GSP 2023
-first_name: Graph Signal Processing Workshop 2023
+title: 2025 IEEE ICASSP Satellite Workshop High-Performance and Low-Cost Array Signal Processing
+ # the website title (if blank, full name will be used instead)
+header: IEEE ICASSP Satellite Workshop 2025
+first_name: High-Performance and Low-Cost Array Signal Processing
 middle_name:
 last_name:
 email: gspworkshop2023@gmail.com
