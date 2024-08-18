@@ -1,0 +1,11 @@
+<div class="instructors clearfix">
+  {% for committee in site.data.staff.Committees %}
+  <div class="instructor-profile-two-col">
+    <a href="{{ committee.url }}" target="_blank"><img src="{{ committee.image | prepend: '/assets/img/' | relative_url }}" /></a>
+    <ul class="instructor-info">
+      <li> <a href="{{ speaker.url }}" target="_blank">{{ speaker.name }}</a></li>
+      <li>{{ speaker.affiliation }}</li>
+    </ul>
+  </div>
+  {% endfor %}
+</div>
