@@ -9,7 +9,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 organizer: true
 
-top_image: /assets/img/ICASSP25/HyPeCASP2025.pdf
+top_image: /assets/img/ICASSP25/HyPeCASP2025.jpg
 top_image_alt: "ICASSP2025"
 ---
 
