@@ -13,43 +13,16 @@ top_image: /assets/img/ICASSP25/HyPeCASP2025.jpg
 top_image_alt: "ICASSP2025"
 ---
 
-Following a series of successful workshops since 2016, we are pleased to announce that the 6th Edition of the Graph Signal Processing Workshop will be held **June 12-14 in Oxford, UK** as an in-person event.
-
-The workshop will provide a warm welcome to experts and practitioners from academia and industry in the field of graph signal processing (GSP). The goal of GSP is to generalize classical signal processing and statistical learning tools to signals on graphs (functions defined on a graph). The workshop will invite discussion on theoretical and foundational topics related to GSP, including graph transforms, sampling theorems, and filter design. The workshop will also highlight how such tools can be integrated into a learning framework, and show novel theoretical developments at the intersection of graph signal processing and graph machine learning. Examples of applications that will be showcased in the workshop include gene expression patterns defined on top of gene networks, the spread of epidemics over a social network, the congestion level at the nodes of a telecommunication network, and patterns of brain activity defined on top of a brain network.
-
-GSP 2023 is kindly supported by the ELLIS Units of [Madrid](https://ellismadrid.es) and [Lausanne](https://www.epfl.ch/research/domains/epfl-ellis/), and the [Center for Intelligent Systems](https://www.epfl.ch/research/domains/cis/) at EPFL.
+Information and communications technology shows enormous needs of and poses unique challenges to the theoretical research of array signal processing. Seemingly opposite performance demands, such as finer resolution and fewer data, frequently arise in emerging applications ranging from integrated sensing and communication, autonomous vehicles, drone swarms, medical imaging, and environmental monitoring. Traditional array signal processing techniques fall short of these applications’ expectations on hardware and computational complexities, robustness to external interference and internal failures, and need for decentralized processing schemes. Nevertheless, the past decade has witnessed great advances in array signal processing. Regarding low-cost methodologies, sparse arrays can save hardware resources and increase the number of degrees-of-freedom by harnessing structural information contained in various signals. In super-resolution algorithm research, ideas from compressed sensing, approximation theory, and convex geometry have been utilized to obtain stable signal estimates from general sub-Nyquist samples. However, there is a widespread misalignment of theoretical research and practical needs, which mainly manifests itself in the reasonability of assumptions, computational limitations, and implementation feasibility. This workshop intends to fill this gap by bringing together people with different backgrounds to exchange ideas and facilitate fruitful collaborations on novel algorithms and theories deployable in practical applications.  
 
 ---
 #### News
-+ **[2023/06/17]** Thank you for attending GSP'23! Photos of speakers and formal dinner can be downloaded [here](https://www.dropbox.com/sh/uiktctu2s86tkwa/AAB3ZKZHyq_nTNnD4QlMZym1a?dl=0).
-+ **[2023/06/12]** Welcome to GSP'23! Slides for the opening address can be downloaded [here](https://gspworkshop.org/assets/pdf/opening.pdf).
-+ **[2023/06/02]** Updated information about getting to Oxford is provided on the "Venue" page.
-+ **[2023/05/20]** The programme of the workshop is now available on the "Schedule" page.
-+ **[2023/03/29]** Notification of acceptance of abstracts has been sent out.
-+ **[2023/02/22]** Registration is now open. Details can be found on the "Registration" page.
-+ **[2023/02/01]** Submission is now open. Guilelines can be found on the "Call for papers" page.
 
 ---
 #### Important Dates
-+ **Submission open:** February 1, 2023
-+ **Submission deadline:** <s>March 1, 2023</s> March 15, 2023
-+ **Notification of acceptance:** <s>March 15, 2023</s> April 1, 2023
-+ **Early registration:** <s>April 1, 2023</s> April 22, 2023
-+ **Workshop:** June 12-14, 2023
-
----
-#### Invited Speakers
-
-<!---
-+ [Markus Püschel](https://acl.inf.ethz.ch/people/markusp/) (ETH Zürich)
-+ [Gitta Kutyniok](https://www.ai.math.uni-muenchen.de/members/professor/kutyniok/index.html) (LMU Munich)
-+ [Hoi-To Wai](https://www1.se.cuhk.edu.hk/~htwai/) (Chinese University of Hong Kong)
-+ [Peter Battaglia](https://scholar.google.com/citations?user=nQ7Ij30AAAAJ&hl=en) (DeepMind)
-+ [Wei Hu](https://www.wict.pku.edu.cn/huwei/) (Peking University)
-+ [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) (University of Cambridge)
---->
-
-{% include speakers.html %}
++ **Submission Deadline:**  November 1, 2024
++ **Notification of Acceptance:** December 18, 2024
++ **Camera Ready Paper Deadline:** January 13, 2025
 
 ---
 #### Organizing Committee
