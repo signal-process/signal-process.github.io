@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 2025 IEEE ICASSP Satellite Workshop High-Performance and Low-Cost Array Signal Processing
+title: HyPeCASP Workshop @ ICASSP 2025
  # the website title (if blank, full name will be used instead)
 header: HyPeCASP Workshop @ ICASSP 2025
 first_name:
 middle_name:
 last_name:
-email: gspworkshop2023@gmail.com
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   IEEE ICASSP Satellite Workshop 2025.
 footer_text: >
