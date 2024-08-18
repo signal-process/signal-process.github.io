@@ -21,20 +21,22 @@ top_image_alt: "ICASSP2025"
 ---
 #### Area of interest
 
-Topics of interest include but are not limited to:
+Specific topics of interest include, but are not limited to:
 
-+ Sparse array design under physical constraints
-+ Robustness of sparse arrays
-+ Beamforming with sparse arrays
 + Array signal processing under mismatched models
 + Implementation of array processing systems
 + Experimental evaluation of array processing systems
-+ Modeling hardware or physical constraints in array signal processing
++ Modeling physical constraints in array signal processing
++ Sparse array design under physical constraints
++ Robustness of sparse arrays
 + Sparse arrays in integrated sensing and communication systems
 + Sparse arrays in the near field and mixed fields scenarios
 + Super-resolution algorithms with low computational complexity
-+ Robust and low-cost decentralized array signal processing techniques
++ Decentralized array signal processing techniques
 + Efficient techniques with low memory and battery consumption
 + Emerging hardware constraints in array signal processing
++ Practical computational and statistical methods for arrays
++ Approximation theory and convex geometry in array signal processing
++ Novel theory and methods for multilinear signal processing
 
 ---

@@ -13,7 +13,12 @@ top_image: /assets/img/ICASSP25/HyPeCASP2025.png
 top_image_alt: "ICASSP2025"
 ---
 
-Information and communications technology shows enormous needs of and poses unique challenges to the theoretical research of array signal processing. Seemingly opposite performance demands, such as finer resolution and fewer data, frequently arise in emerging applications ranging from integrated sensing and communication, autonomous vehicles, drone swarms, medical imaging, and environmental monitoring. Traditional array signal processing techniques fall short of these applications’ expectations on hardware and computational complexities, robustness to external interference and internal failures, and need for decentralized processing schemes. Nevertheless, the past decade has witnessed great advances in array signal processing. Regarding low-cost methodologies, sparse arrays can save hardware resources and increase the number of degrees-of-freedom by harnessing structural information contained in various signals. In super-resolution algorithm research, ideas from compressed sensing, approximation theory, and convex geometry have been utilized to obtain stable signal estimates from general sub-Nyquist samples. However, there is a widespread misalignment of theoretical research and practical needs, which mainly manifests itself in the reasonability of assumptions, computational limitations, and implementation feasibility. This workshop intends to fill this gap by bringing together people with different backgrounds to exchange ideas and facilitate fruitful collaborations on novel algorithms and theories deployable in practical applications.  
+ICASSP is the world’s premier technical conference focused on signal processing and its diverse applications. It features a comprehensive technical program that highlights the latest advancements in research and technology, drawing thousands of professionals from around the globe annually.
+
+The **High-Performance and Low-Cost Array Signal Processing: New Theories and Best Practices in Emerging Applications** workshop is a satellite workshop associated with ICASSP 2025. This workshop aims to unite researchers, practitioners, and students engaged in array signal processing, providing a platform to exchange knowledge on emerging theories and best practices in the field.
+
+Array signal processing has experienced rapid growth and widespread application in various domains, including communications, radar, sonar, seismic exploration, medical imaging, and radio astronomy. Over the past decade, significant strides have been made in this area. However, there is a widespread misalignment of theoretical research and practical needs, which mainly manifests itself in the reasonability of assumptions, computational limitations, and implementation feasibility. This workshop seeks to bridge this gap by fostering an exchange of ideas among individuals from diverse backgrounds, thereby promoting collaboration that leads to innovative solutions and practical advancements in the field.
+
 
 ---
 #### News
@@ -32,9 +37,12 @@ Information and communications technology shows enormous needs of and poses uniq
 
 ---
 #### Other Important Information:
-1. Submitted workshop papers should abide by the ICASSP-2025 paper style, format, and length, and the peer-reviewing process will follow the main conference reviewing guidelines. The workshop papers will be published at the IEEE Xplore Digital Library (with a separate conference record number). The paper submission and reviewing process will be conducted through the ICASSP-2025 paper management system (Microsoft CMT). There must be an author of each accepted workshop paper presenting it in-person.
-2. The workshop attendance will be free-of-charge for the main conference registrants, while a reduced registration fee will be charged to workshop-only attendees.
-3. We welcome all people from relevant academic communities, research institutes, companies or industrial sectors to contribute to this workshop. 
++ Submitted workshop papers should abide by the ICASSP 2025 paper style, format, and length, and the peer-reviewing process will follow the main conference reviewing guidelines. 
++ The workshop papers will be published at the IEEE Xplore Digital Library (with a separate conference record number). 
++ The paper submission and reviewing process will be conducted through the ICASSP 2025 paper management system.
++ There must be an author of each accepted workshop paper presenting it in-person.
++ The workshop attendance will be free-of-charge for the main conference registrants, while a reduced registration fee will be charged to workshop-only attendees.
+ 
 
 ---
 
