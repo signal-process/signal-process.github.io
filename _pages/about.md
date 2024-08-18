@@ -27,27 +27,13 @@ Information and communications technology shows enormous needs of and poses uniq
 ---
 #### Organizing Committee
 
-+ [Fauzia Ahmad](fauzia.ahmad[at]temple.edu) (Temple University)
-+ [Chun-Lin Liu](chunlinliu[at]ntu.edu.tw) (King Juan Carlos University)
-+ [Heng Qiao](heng.qiao[at]sjtu.edu.cn) (Shanghai Jiao Tong University)
-+ [Robin Rajamäki](robin.rajamaki[at]aalto.fi) (Aalto University)
-+ [Kaushallya Adhikari](kadhikari[at]uri.edu) (University of Rhode Island)
-+ [Ziping Zhao](zipingzhao[at]shanghaitech.edu.cn) (ShanghaiTech University)
++ [Fauzia Ahmad] (Temple University)
++ [Chun-Lin Liu] (King Juan Carlos University)
++ [Heng Qiao] (Shanghai Jiao Tong University)
++ [Robin Rajamäki] (Aalto University)
++ [Kaushallya Adhikari] (University of Rhode Island)
++ [Ziping Zhao] (ShanghaiTech University)
 
 ---
-<!---
-#### Local Organizing Team
-
-+ [Keyue Jiang](https://garyball.github.io/) (University College London)
-+ [Henry Kenlay](https://henrykenlay.github.io/) (University of Oxford)
-+ Bohan Tang (University of Oxford)
 
 
-{% include local_team.html %}
-
-
----
-#### Co-organizers
-
-{% include co_organizers.html %}
---->
