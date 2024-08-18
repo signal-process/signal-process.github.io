@@ -7,8 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=javascript:history.back()" />
-  </head>
-</html>
+<script>
+  window.history.back();
+</script>
