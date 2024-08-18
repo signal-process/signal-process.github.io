@@ -27,12 +27,12 @@ Information and communications technology shows enormous needs of and poses uniq
 ---
 #### Organizing Committee
 
-+ [Fauzia Ahmad] (Temple University)
-+ [Chun-Lin Liu] (King Juan Carlos University)
-+ [Heng Qiao] (Shanghai Jiao Tong University)
-+ [Robin Rajamäki] (Aalto University)
-+ [Kaushallya Adhikari] (University of Rhode Island)
-+ [Ziping Zhao] (ShanghaiTech University)
++ Fauzia Ahmad (Temple University, fauzia.ahmad[at]temple.edu) 
++ Chun-Lin Liu (National Taiwan University, chunlinliu[at]ntu.edu.tw)
++ Heng Qiao (Shanghai Jiao Tong University, heng.qiao[at]sjtu.edu.cn) 
++ Robin Rajamäki (Aalto University, robin.rajamaki[at]aalto.fi)
++ Kaushallya Adhikari (University of Rhode Island, kadhikari[at]uri.edu)
++ Ziping Zhao (ShanghaiTech University, zipingzhao[at]shanghaitech.edu.cn)
 
 ---
 
