@@ -9,8 +9,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 organizer: true
 
-top_image: /assets/img/gsp23/LMH+from+the+Gardens_cropped.jpg
-top_image_alt: "Lady Margaret Hall from the gardens."
+top_image: /assets/img/ICASSP25/HyPeCASP2025.pdf
+top_image_alt: "ICASSP2025"
 ---
 
 Following a series of successful workshops since 2016, we are pleased to announce that the 6th Edition of the Graph Signal Processing Workshop will be held **June 12-14 in Oxford, UK** as an in-person event.

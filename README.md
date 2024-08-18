@@ -1,4 +1,6 @@
-# GSP workshop official website
+# 2025 IEEE ICASSP Satellite Workshop
+High-Performance and Low-Cost Array Signal Processing official website
+ 
 
 ## The make modification for the pages:
 - The text shown in the website can be found in folder '_pages'. It follows the tradition of usual markdown files.
