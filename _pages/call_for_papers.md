@@ -38,9 +38,3 @@ Topics of interest include but are not limited to:
 + Emerging hardware constraints in array signal processing
 
 ---
-#### Other Important Information:
-1. Submitted workshop papers should abide by the ICASSP-2025 paper style, format, and length, and the peer-reviewing process will follow the main conference reviewing guidelines. The workshop papers will be published at the IEEE Xplore Digital Library (with a separate conference record number). The paper submission and reviewing process will be conducted through the ICASSP-2025 paper management system (Microsoft CMT). There must be an author of each accepted workshop paper presenting it in-person.
-2. The workshop attendance will be free-of-charge for the main conference registrants, while a reduced registration fee will be charged to workshop-only attendees.
-3. We welcome all people from relevant academic communities, research institutes, companies or industrial sectors to contribute to this workshop. 
-
----
