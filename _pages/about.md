@@ -9,7 +9,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 organizer: true
 
-top_image: /assets/img/ICASSP25/HyPeCASP2025.jpg
+top_image: /assets/img/ICASSP25/HyPeCASP2025.png
 top_image_alt: "ICASSP2025"
 ---
 
@@ -26,25 +26,22 @@ Information and communications technology shows enormous needs of and poses uniq
 
 ---
 #### Organizing Committee
-<!---
-+ [Xiaowen Dong](https://web.media.mit.edu/~xdong/) (University of Oxford)
-+ [Antonio Marques](https://www.tsc.urjc.es/~amarques/) (King Juan Carlos University)
-+ [Gonzalo Mateos](https://www.hajim.rochester.edu/ece/sites/gmateos//) (University of Rochester)
-+ [Santiago Segarra](https://segarra.rice.edu) (Rice University)
-+ [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en) (EPFL)
-+ [Laura Toni](https://www.ucl.ac.uk/iccs/dr-laura-toni) (University College London)
---->
 
-{% include staff.html %}
-
++ [Fauzia Ahmad](fauzia.ahmad[at]temple.edu) (Temple University)
++ [Chun-Lin Liu](chunlinliu[at]ntu.edu.tw) (King Juan Carlos University)
++ [Heng Qiao](heng.qiao[at]sjtu.edu.cn) (Shanghai Jiao Tong University)
++ [Robin Rajamäki](robin.rajamaki[at]aalto.fi) (Aalto University)
++ [Kaushallya Adhikari](kadhikari[at]uri.edu) (University of Rhode Island)
++ [Ziping Zhao](zipingzhao[at]shanghaitech.edu.cn) (ShanghaiTech University)
 
 ---
-#### Local Organizing Team
 <!---
+#### Local Organizing Team
+
 + [Keyue Jiang](https://garyball.github.io/) (University College London)
 + [Henry Kenlay](https://henrykenlay.github.io/) (University of Oxford)
 + Bohan Tang (University of Oxford)
---->
+
 
 {% include local_team.html %}
 
@@ -53,3 +50,4 @@ Information and communications technology shows enormous needs of and poses uniq
 #### Co-organizers
 
 {% include co_organizers.html %}
+--->
