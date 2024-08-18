@@ -133,3 +133,27 @@ Local_team:
     url: https://gspworkshop.github.io
     image: people/bohan_2.jpg
 
+Committees:
+  - name: Fauzia Ahmad
+    affiliation: Temple University
+    image: committee/Photo_Ahmad.jpg
+
+  - name: Chun-Lin Liu
+    affiliation: National Taiwan University
+    image: committee/Photo_Liu.jpg
+
+  - name: Heng Qiao
+    affiliation: Shanghai Jiao Tong University
+    image: committee/Photo_Qiao.jpg
+
+  - name: Robin Rajamäki
+    affiliation: Aalto University
+    image: committee/Photo_Rajamaki.jpg
+
+  - name: Kaushallya Adhikari
+    affiliation: University of Rhode Island
+    image: committee/Photo_Adhikari.jpg
+
+  - name: Ziping Zhao
+    affiliation: ShanghaiTech University
+    image: committee/Photo_Zhao.jpg
