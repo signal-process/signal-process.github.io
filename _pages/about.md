@@ -37,7 +37,7 @@ Array signal processing has experienced rapid growth and widespread application 
 
 ---
 #### Other Important Information:
-+ Submitted workshop papers should abide by the ICASSP 2025 paper style, format, and length, and the peer-reviewing process will follow the main conference reviewing guidelines. 
++ Submitted workshop papers should abide by the ICASSP 2025 paper [style, format, and length](https://2025.ieeeicassp.org/author-kit-instructions/), and the peer-reviewing process will follow the main conference reviewing guidelines. 
 + The workshop papers will be published at the IEEE Xplore Digital Library (with a separate conference record number). 
 + The paper submission and reviewing process will be conducted through the ICASSP 2025 paper management system.
 + There must be an author of each accepted workshop paper presenting it in-person.
