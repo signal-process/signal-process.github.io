@@ -9,12 +9,14 @@ layout: default
         {% if page.top_image -%}
           {%- assign profile_image_path = page.top_image -%}
           {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+          <div style="text-align: center;">
           {% include figure.html 
             path=profile_image_path 
             class=profile_image_class
             alt=top_image_alt
             width="95%"
             max-width="100%"-%}
+          </div>
           <br>
         {%- endif %}
 
