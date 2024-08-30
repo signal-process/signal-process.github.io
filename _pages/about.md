@@ -13,7 +13,7 @@ top_image: /assets/img/ICASSP25/HyPeCASP2025.png
 top_image_alt: "ICASSP2025"
 ---
 
-IEEE International Conference on Acoustics, Speech, and Signal Processing is the world’s premier technical conference focused on signal processing and its diverse applications. It features a comprehensive technical program that highlights the latest advancements in research and technology, drawing thousands of professionals from around the globe annually.
+IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) is the world’s premier technical conference focused on signal processing and its diverse applications. It features a comprehensive technical program that highlights the latest advancements in research and technology, drawing thousands of professionals from around the globe annually.
 
 The **High-Performance and Low-Cost Array Signal Processing: New Theories and Best Practices in Emerging Applications** workshop is a satellite workshop associated with [ICASSP 2025](https://2025.ieeeicassp.org/). This workshop aims to unite researchers, practitioners, and students engaged in array signal processing, providing a platform to exchange knowledge on emerging theories and best practices in the field.
 
