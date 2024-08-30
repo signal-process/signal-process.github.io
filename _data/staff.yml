@@ -134,17 +134,13 @@ Local_team:
     image: people/bohan_2.jpg
 
 Committees:
-  - name: Fauzia Ahmad
-    affiliation: Temple University
-    image: committee/Photo_Ahmad.jpg
-
-  - name: Chun-Lin Liu
-    affiliation: National Taiwan University
-    image: committee/Photo_Liu.png
-
   - name: Heng Qiao
     affiliation: Shanghai Jiao Tong University
     image: committee/Photo_Qiaos.jpg
+    
+  - name: Chun-Lin Liu
+    affiliation: National Taiwan University
+    image: committee/Photo_Liu.png
 
   - name: Robin Rajamäki
     affiliation: Aalto University
@@ -153,6 +149,10 @@ Committees:
   - name: Kaushallya Adhikari
     affiliation: University of Rhode Island
     image: committee/Photo_Adhikari.jpg
+    
+  - name: Fauzia Ahmad
+    affiliation: Temple University
+    image: committee/Photo_Ahmad.jpg
 
   - name: Ziping Zhao
     affiliation: ShanghaiTech University
