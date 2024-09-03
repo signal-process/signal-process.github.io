@@ -20,7 +20,7 @@ Array signal processing has experienced widespread application in various domain
 
 ---
 #### News
-+ The paper submission portal is open.
++ The [paper submission](https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICASSP2025) portal is open.
 
 ---
 #### Important Dates
