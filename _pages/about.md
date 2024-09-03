@@ -20,7 +20,7 @@ Array signal processing has experienced widespread application in various domain
 
 ---
 #### News
-+ TBA
++ The paper submission portal is open.
 
 ---
 #### Important Dates
