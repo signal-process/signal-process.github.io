@@ -48,5 +48,3 @@ Array signal processing has experienced widespread application in various domain
 Chenyu Gao
 
 E-mail: gaochy@shanghaitech.edu.cn
-
-Phone: +86 15956381070
