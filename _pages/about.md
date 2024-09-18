@@ -45,6 +45,4 @@ Array signal processing has experienced widespread application in various domain
 ---
 #### Workshop Web Manager
 
-Chenyu Gao
-
-E-mail: gaochy@shanghaitech.edu.cn
+Mr. Chenyu Gao E-mail: gaochy@shanghaitech.edu.cn
