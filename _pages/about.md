@@ -23,6 +23,7 @@ Array signal processing has experienced widespread application in various domain
 + The [paper submission](https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICASSP2025) portal is open.
 + <span style="color: red">Per many requests, the submission system will be kept open until Nov. 8, 2024.
 </span>
+
 ---
 #### Important Dates
 + **Submission Deadline:**  November 1, 2024
