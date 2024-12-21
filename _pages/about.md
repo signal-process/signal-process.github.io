@@ -20,7 +20,8 @@ Array signal processing has experienced widespread application in various domain
 
 ---
 #### News
-+ <span style="color: red; font-weight: bold">Per many requests, the submission system will be kept open until Nov. 8, 2024.</span>
++ The final submission decisions have been sent. If you have not received the email, kindly check your spam folder. (updated on 19 Dec 2024)
++ Per many requests, the submission system will be kept open until Nov. 8, 2024.
 + The [paper submission](https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICASSP2025) portal is open.
 
 ---
