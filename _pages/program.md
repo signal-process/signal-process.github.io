@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: page
 permalink: /program/
 title: "Program"
 description: 
