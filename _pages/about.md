@@ -20,7 +20,7 @@ Array signal processing has experienced widespread application in various domain
 
 ---
 #### News
-+ Registration is open (updated on Jan. 15, 2024)
++ Registration is open (updated on Jan. 15, 2025)
 + The final submission decisions have been made. (updated on Dec. 19, 2024)
 + Per many requests, the submission system will be kept open until Nov. 8, 2024. 
 + The [paper submission](https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICASSP2025) portal is open.
