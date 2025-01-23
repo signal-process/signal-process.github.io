@@ -20,6 +20,7 @@ Array signal processing has experienced widespread application in various domain
 
 ---
 #### News
++ Registration is open (updated on Jan. 15, 2024)
 + The final submission decisions have been made. (updated on Dec. 19, 2024)
 + Per many requests, the submission system will be kept open until Nov. 8, 2024. 
 + The [paper submission](https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICASSP2025) portal is open.
@@ -28,7 +29,8 @@ Array signal processing has experienced widespread application in various domain
 #### Important Dates
 + **Submission Deadline:**  November 1, 2024
 + **Notification of Acceptance:** December 18, 2024
-+ **Camera Ready Paper Deadline:** January 13, 2025
++ **Camera Ready Paper Deadline:** January 18, 2025
++ **Author Registration Deadline:** January 20, 2025
 
 ---
 #### Organizing Committee
