@@ -31,6 +31,7 @@ nav_order: 3
 </p>
 
 {% include schedule.html %}
+<div style="height:50px"></div>
 <h2 style="text-align: center; font-weight: bold;">Poster Session</h2>
 
 <p style="text-align: center; margin: 20px 0;">
