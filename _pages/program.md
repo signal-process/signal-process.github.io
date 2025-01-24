@@ -31,7 +31,7 @@ nav_order: 3
 </p>
 
 {% include schedule.html %}
-<div style="height:50px"></div>
+<div style="height:30px"></div>
 <h2 style="text-align: center; font-weight: bold;">Poster Session</h2>
 
 <p style="text-align: center; margin: 20px 0;">
@@ -39,6 +39,6 @@ nav_order: 3
 <strong>Location</strong>: TBD &emsp;&emsp;
 <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
 </p>
-<div style="height:50px"></div>
+<div style="height:30px"></div>
 The agenda of the workshop can be found [here](https://signal-process.github.io/assets/pdf/HiPeCASP%5FDetailed%5FProgram%5Fver%5F01.pdf).
 <div style="height:50px"></div>
