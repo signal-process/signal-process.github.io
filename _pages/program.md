@@ -40,5 +40,5 @@ nav_order: 3
 <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
 </p>
 <div style="height:50px"></div>
-The agenda of the workshop can be found [here](https://gspworkshop.org/assets/pdf/Graph%20Signal%20Processing%20Programme%20V4.pdf).
+The agenda of the workshop can be found [here](https://signal-process.github.io/assets/pdf/HiPeCASP%5FDetailed%5FProgram%5Fver%5F01.pdf).
 <div style="height:50px"></div>
