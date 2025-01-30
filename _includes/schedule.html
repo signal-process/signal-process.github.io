@@ -1,33 +1,58 @@
 <div class="lightning-talks">
     <style>
+        :root {
+            --table-border-color: #ddd;
+            --table-header-bg: #2c3e50;
+            --table-header-color: white;
+            --table-row-even-bg: #f8f9fa;
+            --table-text-color: #333;
+            --table-time-color: #e74c3c;
+            --table-author-color: #666;
+        }
+
+        [data-theme="dark"] {
+            --table-border-color: #4a4a4a;
+            --table-header-bg: #1a1a1a;
+            --table-header-color: #ffffff;
+            --table-row-even-bg: #2d2d2d;
+            --table-text-color: #e0e0e0;
+            --table-time-color: #ff6b6b;
+            --table-author-color: #b0b0b0;
+        }
+
         .talks-schedule {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            color: var(--table-text-color);
         }
 
         .talks-schedule th, .talks-schedule td {
             padding: 12px;
-            border: 1px solid #ddd;
+            border: 1px solid var(--table-border-color);
             text-align: left;
         }
 
         .talks-schedule th {
-            background-color: #2c3e50;
-            color: white;
+            background-color: var(--table-header-bg);
+            color: var(--table-header-color);
         }
 
         .talks-schedule tr:nth-child(even) {
-            background-color: #f8f9fa;
+            background-color: var(--table-row-even-bg);
+        }
+
+        .talks-schedule tr:nth-child(odd) {
+            background-color: transparent;
         }
 
         .talks-schedule td:first-child {
             white-space: nowrap;
-            color: #e74c3c;
+            color: var(--table-time-color);
         }
 
         .talks-schedule td:last-child {
-            color: #666;
+            color: var(--table-author-color);
             font-size: 0.9em;
         }
 
