@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 ---
-The detailed technical program of the workshop can be found [here](https://signal-process.github.io/assets/pdf/HiPeCASP%5FDetailed%5FProgram%5Fver%5F01.pdf).
+The detailed technical program of the workshop can be found [here](https://signal-process.github.io/assets/pdf/HiPeCASP%5FDetailed%5FProgram%5Fver%5F02.pdf).
 <div style="height:20px"></div>
 <h2 style="text-align: center; font-weight: bold;">Keynote Speech</h2>
 
