@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: null
 permalink: /submit/
 title: Submit
 description: 
