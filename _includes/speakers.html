@@ -1,5 +1,6 @@
 <div class="speakers-container">
     <style>
+        /* 原有的讲者简介样式 */
         .speaker-profile {
             display: flex;
             gap: 30px;
@@ -54,6 +55,25 @@
             .speaker-info {
                 text-align: center;
             }
+        }
+    
+        /* 夜间模式相关样式 */
+        [data-theme="dark"] body {
+            background-color: #121212; /* 整个页面的背景色 */
+            color: #e0e0e0; /* 页面文字颜色 */
+        }
+        [data-theme="dark"] .speaker-profile {
+            background-color: #2d2d2d; /* 参考表格夜间模式的行背景色 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        [data-theme="dark"] .speaker-info h3 {
+            color: #ffffff;
+        }
+        [data-theme="dark"] .info-label {
+            color: #ffffff;
+        }
+        [data-theme="dark"] .speaker-affiliation {
+            color: #b0b0b0;
         }
     </style>
 
