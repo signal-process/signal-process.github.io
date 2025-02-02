@@ -11,7 +11,7 @@ The detailed technical program of the workshop can be found [here](https://signa
 <h2 style="text-align: center; font-weight: bold;">Keynote Speech</h2>
 
 <p style="text-align: center; margin: 20px 0;">
-<strong>Time</strong>: 9:30 - 11:00 &emsp;&emsp; 
+<strong>Time</strong>: 14:00 - 15:30 &emsp;&emsp; 
 <strong>Location</strong>: TBD &emsp;&emsp; 
 <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
 </p>
@@ -20,15 +20,15 @@ The detailed technical program of the workshop can be found [here](https://signa
 <h2 style="text-align: center; font-weight: bold;">Tea/Coffee Break</h2>
 
 <p style="text-align: center; margin: 20px 0;">
-<strong>Time</strong>: 11:00 - 11:30 &emsp;&emsp; 
-<strong>Location</strong>: TBD &emsp;&emsp;
+  <strong>Time</strong>: 15:30 - 16:00 &emsp;&emsp; 
+  <strong>Location</strong>: TBD &emsp;&emsp;
 </p>
 <h2 style="text-align: center; font-weight: bold;">Lightning Talk</h2>
 
 <p style="text-align: center; margin: 20px 0;">
-<strong>Time</strong>: 11:30 - 11:48 &emsp;&emsp; 
-<strong>Location</strong>: TBD &emsp;&emsp;
-<strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
+  <strong>Time</strong>: 16:00 - 16:18 &emsp;&emsp; 
+  <strong>Location</strong>: TBD &emsp;&emsp;
+  <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
 </p>
 
 {% include schedule.html %}
@@ -36,8 +36,8 @@ The detailed technical program of the workshop can be found [here](https://signa
 <h2 style="text-align: center; font-weight: bold;">Poster Session</h2>
 
 <p style="text-align: center; margin: 20px 0;">
-<strong>Time</strong>: 11:48 - 13:00 &emsp;&emsp; 
-<strong>Location</strong>: TBD &emsp;&emsp;
-<strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
+  <strong>Time</strong>: 16:18 - 17:30 &emsp;&emsp; 
+  <strong>Location</strong>: TBD &emsp;&emsp;
+  <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
 </p>
 <div style="height:50px"></div>
