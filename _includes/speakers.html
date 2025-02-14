@@ -5,16 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Speakers Layout</title>
   <style>
-    /* 基本样式 */
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      padding: 20px;
       margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
     }
     .speakers-container {
       max-width: 1200px;
       margin: 0 auto;
+    }
+    .talk-container {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .talk-speakers {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .speaker {
+      text-align: center;
+    }
+    .speaker img {
+      width: 200px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .speaker-name {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #2c3e50;
+    }
+    .talk-details {
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+    .talk-details p {
+      margin-bottom: 10px;
     }
     .info-label {
       font-weight: bold;
@@ -22,193 +56,51 @@
       display: inline-block;
       min-width: 70px;
     }
-    /* 取消speaker-affiliation的斜体 */
-    .speaker-affiliation {
-      color: #666;
-      font-style: normal;
-      margin-bottom: 10px;
-    }
-    .speaker-time,
-    .speaker-title,
-    .speaker-abstract {
-      margin-bottom: 8px;
-    }
-
-    /* ---------------------- */
-    /* 电脑端（Desktop）布局   */
-    /* 三行排版：第一行图片；第二行姓名/单位；第三行其他内容 */
-    .desktop {
-      display: block;
-    }
-    .desktop .speaker-profile {
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      margin-bottom: 30px;
-    }
-    .desktop .row {
-      display: flex;
-      gap: 30px;
-      margin-bottom: 20px;
-    }
-    /* 统一让每个项目平分宽度 */
-    .desktop .row.images .speaker-image,
-    .desktop .row.names .speaker-info,
-    .desktop .row.additional .speaker-details {
-      flex: 1;
-    }
-    /* 图片样式 */
-    .speaker-image img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      border-radius: 4px;
-    }
-    /* 限制图片区块的最大宽度 */
-    .desktop .row.images .speaker-image {
-      max-width: 200px;
-    }
-    
-    /* ---------------------- */
-    /* 手机端（Mobile）布局 */
-    /* 每个讲者的所有内容堆叠排列 */
-    .mobile {
-      display: none;
-    }
-    .mobile .speaker-block {
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      margin-bottom: 30px;
-      text-align: center;
-    }
-    .mobile .speaker-image {
-      margin-bottom: 20px;
-    }
-    .mobile .speaker-image img {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-      object-fit: cover;
-      border-radius: 4px;
-    }
-
-    /* ---------------------- */
-    /* 媒体查询：屏幕宽度低于600px时启用手机端布局 */
-    @media (max-width: 600px) {
-      .desktop {
-        display: none;
-      }
-      .mobile {
-        display: block;
-      }
-    }
-    
-    /* ---------------------- */
-    /* 夜间模式样式 */
     [data-theme="dark"] body {
       background-color: #121212;
       color: #e0e0e0;
     }
-    [data-theme="dark"] .speaker-profile,
-    [data-theme="dark"] .speaker-block {
+    [data-theme="dark"] .talk-container {
       background-color: #2d2d2d;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.7);
     }
     [data-theme="dark"] .info-label {
       color: #ffffff;
     }
-    [data-theme="dark"] .speaker-affiliation {
-      color: #b0b0b0;
-    }
-    [data-theme="dark"] .desktop .row.additional .speaker-details p,
-    [data-theme="dark"] .mobile .speaker-block p {
+    [data-theme="dark"] .talk-details p {
       color: #e0e0e0;
     }
-    [data-theme="dark"] .desktop .row.names .speaker-info h3,
-    [data-theme="dark"] .mobile .speaker-block h3 {
+    [data-theme="dark"] .speaker-name {
       color: #ffffff;
     }
   </style>
 </head>
 <body>
   <div class="speakers-container">
-    <!-- 电脑端布局 -->
-    <div class="desktop">
-      <div class="speaker-profile">
-        <!-- 第一行：照片 -->
-        <div class="row images">
-          {% for talk in site.data.staff.Speakers %}
-          <div class="speaker-image">
-            {% if talk.images %}
-              {% for image in talk.images %}
-                <img src="{{ image | prepend: '/assets/img/' | relative_url }}" alt="{{ talk.name }}">
-              {% endfor %}
-            {% else %}
-              <img src="{{ '/assets/img/placeholder.jpg' | relative_url }}" alt="Placeholder">
-            {% endif %}
-          </div>
-          {% endfor %}
+    {% for talk in site.data.staff.Speakers %}
+    <div class="talk-container">
+      <div class="talk-speakers">
+        {% for i in (0..talk.names.size-1) %}
+        <div class="speaker">
+          <img src="{{ talk.images[i] | prepend: '/assets/img/' | relative_url }}" alt="{{ talk.names[i] }}">
+          <p class="speaker-name">{{ talk.names[i] }}</p>
         </div>
-        <!-- 第二行：姓名及单位 -->
-        <div class="row names">
-          {% for talk in site.data.staff.Speakers %}
-          <div class="speaker-info">
-            <h3><span class="info-label">Name:</span> {{ talk.name }}</h3>
-            <p class="speaker-affiliation"><span class="info-label">Affiliation:</span> {{ talk.affiliation }}</p>
-          </div>
-          {% endfor %}
-        </div>
-        <!-- 第三行：其他内容 -->
-        <div class="row additional">
-          {% for talk in site.data.staff.Speakers %}
-          <div class="speaker-details">
-            {% if talk.time %}
-            <p class="speaker-time"><span class="info-label">Time:</span> {{ talk.time }}</p>
-            {% endif %}
-            {% if talk.title %}
-            <p class="speaker-title"><span class="info-label">Title:</span> {{ talk.title }}</p>
-            {% endif %}
-            {% if talk.abstract %}
-            <p class="speaker-abstract"><span class="info-label">Abstract:</span> {{ talk.abstract }}</p>
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
+        {% endfor %}
+      </div>
+      <div class="talk-details">
+        <p class="affiliation"><span class="info-label">Affiliation:</span> {{ talk.affiliation }}</p>
+        {% if talk.time %}
+        <p class="time"><span class="info-label">Time:</span> {{ talk.time }}</p>
+        {% endif %}
+        {% if talk.title %}
+        <p class="title"><span class="info-label">Title:</span> {{ talk.title }}</p>
+        {% endif %}
+        {% if talk.abstract %}
+        <p class="abstract"><span class="info-label">Abstract:</span> {{ talk.abstract }}</p>
+        {% endif %}
       </div>
     </div>
-
-    <!-- 手机端布局 -->
-    <div class="mobile">
-      {% for talk in site.data.staff.Speakers %}
-      <div class="speaker-block">
-        <div class="speaker-image">
-          {% if talk.images %}
-            {% for image in talk.images %}
-              <img src="{{ image | prepend: '/assets/img/' | relative_url }}" alt="{{ talk.name }}">
-            {% endfor %}
-          {% else %}
-            <img src="{{ '/assets/img/placeholder.jpg' | relative_url }}" alt="Placeholder">
-          {% endif %}
-        </div>
-        <div class="speaker-info">
-          <h3><span class="info-label">Name:</span> {{ talk.name }}</h3>
-          <p class="speaker-affiliation"><span class="info-label">Affiliation:</span> {{ talk.affiliation }}</p>
-          {% if talk.time %}
-          <p class="speaker-time"><span class="info-label">Time:</span> {{ talk.time }}</p>
-          {% endif %}
-          {% if talk.title %}
-          <p class="speaker-title"><span class="info-label">Title:</span> {{ talk.title }}</p>
-          {% endif %}
-          {% if talk.abstract %}
-          <p class="speaker-abstract"><span class="info-label">Abstract:</span> {{ talk.abstract }}</p>
-          {% endif %}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% endfor %}
   </div>
 </body>
 </html>
