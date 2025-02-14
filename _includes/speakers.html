@@ -1,103 +1,104 @@
 <div class="speakers-container">
     <style>
+      .speaker-profile {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .speaker-image {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .speaker-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+      .speaker-info {
+        flex-grow: 1;
+      }
+      .speaker-info h3 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+      }
+      .info-label {
+        font-weight: bold;
+        color: #2c3e50;
+        display: inline-block;
+        min-width: 70px;
+      }
+      .speaker-affiliation {
+        color: #666;
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+      .speaker-time, .speaker-title, .speaker-abstract {
+        margin-bottom: 8px;
+      }
+      @media (max-width: 768px) {
         .speaker-profile {
-            display: flex;
-            gap: 30px;
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          flex-direction: column;
+          align-items: center;
         }
         .speaker-image {
-            width: 200px;
-            height: 200px;
-            flex-shrink: 0;
-        }
-        .speaker-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 4px;
+          width: 150px;
         }
         .speaker-info {
-            flex-grow: 1;
+          text-align: center;
         }
-        .speaker-info h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 1.1em; /* 减小字号 */
-        }
-        .info-label {
-            font-weight: bold;
-            color: #2c3e50;
-            display: inline-block;
-            min-width: 70px;
-        }
-        .speaker-affiliation {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .speaker-time, .speaker-title, .speaker-abstract {
-            margin-bottom: 8px;
-        }
-        @media (max-width: 768px) {
-            .speaker-profile {
-                flex-direction: column;
-                align-items: center;
-            }
-            .speaker-image {
-                width: 150px;
-                height: 150px;
-            }
-            .speaker-info {
-                text-align: center;
-            }
-        }
-    
-        /* 夜间模式相关样式 */
-        [data-theme="dark"] body {
-            background-color: #121212; /* 整个页面的背景色 */
-            color: #e0e0e0; /* 页面文字颜色 */
-        }
-        [data-theme="dark"] .speaker-profile {
-            background-color: #2d2d2d; /* 参考表格夜间模式的行背景色 */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-        }
-        [data-theme="dark"] .speaker-info h3 {
-            color: #ffffff;
-        }
-        [data-theme="dark"] .info-label {
-            color: #ffffff;
-        }
-        [data-theme="dark"] .speaker-affiliation {
-            color: #b0b0b0;
-        }
+      }
+      /* 夜间模式相关样式 */
+      [data-theme="dark"] body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+      [data-theme="dark"] .speaker-profile {
+        background-color: #2d2d2d;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+      }
+      [data-theme="dark"] .speaker-info h3 {
+        color: #ffffff;
+      }
+      [data-theme="dark"] .info-label {
+        color: #ffffff;
+      }
+      [data-theme="dark"] .speaker-affiliation {
+        color: #b0b0b0;
+      }
     </style>
-
-    {% for speaker in site.data.staff.Speakers %}
+  
+    {% for talk in site.data.staff.Speakers %}
     <div class="speaker-profile">
-        <div class="speaker-image">
-            {% if speaker.image %}
-                <img src="{{ speaker.image | prepend: '/assets/img/' | relative_url }}" alt="{{ speaker.name }}">
-            {% else %}
-                <img src="{{ '/assets/img/placeholder.jpg' | relative_url }}" alt="Placeholder">
-            {% endif %}
-        </div>
-        <div class="speaker-info">
-            <h3><span class="info-label">Name:</span> {{ speaker.name }}</h3>
-            <p class="speaker-affiliation"><span class="info-label">Affiliation:</span> {{ speaker.affiliation }}</p>
-            {% if speaker.time %}
-                <p class="speaker-time"><span class="info-label">Time:</span> {{ speaker.time }}</p>
-            {% endif %}
-            {% if speaker.title %}
-                <p class="speaker-title"><span class="info-label">Title:</span> {{ speaker.title }}</p>
-            {% endif %}
-            {% if speaker.abstract %}
-                <p class="speaker-abstract"><span class="info-label">Abstract:</span> {{ speaker.abstract }}</p>
-            {% endif %}
-        </div>
+      <div class="speaker-image">
+        {% if talk.images %}
+          {% for image in talk.images %}
+            <img src="{{ image | prepend: '/assets/img/' | relative_url }}" alt="{{ talk.name }}">
+          {% endfor %}
+        {% else %}
+          <img src="{{ '/assets/img/placeholder.jpg' | relative_url }}" alt="Placeholder">
+        {% endif %}
+      </div>
+      <div class="speaker-info">
+        <h3><span class="info-label">Name:</span> {{ talk.name }}</h3>
+        <p class="speaker-affiliation"><span class="info-label">Affiliation:</span> {{ talk.affiliation }}</p>
+        {% if talk.time %}
+          <p class="speaker-time"><span class="info-label">Time:</span> {{ talk.time }}</p>
+        {% endif %}
+        {% if talk.title %}
+          <p class="speaker-title"><span class="info-label">Title:</span> {{ talk.title }}</p>
+        {% endif %}
+        {% if talk.abstract %}
+          <p class="speaker-abstract"><span class="info-label">Abstract:</span> {{ talk.abstract }}</p>
+        {% endif %}
+      </div>
     </div>
     {% endfor %}
-</div>
+  </div>
