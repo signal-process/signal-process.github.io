@@ -33,8 +33,7 @@ The detailed technical program of the workshop can be found [here](https://signa
 <h2 style="text-align: center; font-weight: bold;">Poster Session</h2>
 
 <p style="text-align: center; margin: 20px 0;">
-  <strong>Time</strong>: 16:18 - 17:30 &emsp;&emsp; 
-  <strong>Location</strong>: TBD &emsp;&emsp;
+  <strong>Time</strong>: 16:18 - 17:30 &emsp;&emsp;
   <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
 </p>
 <div style="height:50px"></div>
