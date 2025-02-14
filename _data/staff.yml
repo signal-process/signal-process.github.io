@@ -3,7 +3,7 @@ Speakers:
           - Sandeep Rao
           - Rajan Narasimha
     affiliation: Texas Instruments
-    time: TBD
+    time: "14:00 - 14:45"
     title: 'High-Performance and Low-Cost Array Signal Processing: Challenges and Trends in Emerging Radar Applications'
     abstract: High-angle resolution has been a holy-grail for automotive and industrial radar applications. The development of low-cost and high-performance solutions necessitates the design of efficient antenna arrays paired with suitable angle of arrival estimation algorithms. The design of sparse arrays and the associated recovery algorithms is a potential approach to address the above challenges. The first portion of the talk will present an overview of recent literature in the field and some open challenges that need to be addressed to make them practically viable solutions, with some examples. The second portion of the talk will present a recent trend which is the development of low-cost edge AI solutions for radar applications such as target classification, gesture recognition and Automotive in-cabin sensing.  In order to overcome the limited angle resolution of low-cost Radars, such solutions typically leverage the superior range and velocity resolution of radars along with an ML network with a low compute and memory foot-print.
     images: 
@@ -12,7 +12,7 @@ Speakers:
 
   - name: TBD
     affiliation: TBD
-    time: TBD
+    time: "14:45 - 15:30"
     title: TBD
     abstract: TBD
     images: ICASSP25/350.jpeg
