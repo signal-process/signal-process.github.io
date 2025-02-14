@@ -8,9 +8,12 @@
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        max-width: 800px; /* 外层容器最大宽度 */
+        margin-left: auto;
+        margin-right: auto;
       }
       .speaker-image {
-        width: 400px;
+        width: 40%; /* 宽度设为父容器的百分比 */
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -49,7 +52,7 @@
           align-items: center;
         }
         .speaker-image {
-          width: 150px;
+          width: 80%; /* 移动端使用更大的宽度，适应屏幕 */
         }
         .speaker-info {
           text-align: center;
