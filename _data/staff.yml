@@ -12,12 +12,19 @@ Speakers:
     bios:
           -  Sandeep Rao is with Texas Instruments(TI) where he leads an R&D group on mmWave signal processing. His research group works on identifying new applications for mmWave sensing and is actively involved in defining the next generation of TI mm-wave radar devices. He has a Masters from the University of Maryland and a Bachelors from the Indian Institute of Technology Madras. He has 30 granted patent (and an additional 20+ pending), in the field of mmWave sensing and GPS.
           -  Rajan Narasimha holds a Bachelor's degree from IIT Bombay and a doctorate degree in Electrical Engineering from the University of Illinois, Urbana-Champaign (2011). He works for Texas Instruments as a senior technologist in Kilby Labs, Dallas. His activities in TI have spanned signal processing system and algorithm definition as well as embedded implementation for a variety of areas at the PHY layer such as SerDes communication, smart audio amplifiers and embedded control. His recent work has focused on system design for photo-diode arrays and sparse arrays and algorithms for mmWave radar. He has over 10 papers published in refereed conferences and journals and 14 granted US patents.
-  - name: TBD
-    affiliation: TBD
+  - names:
+          - Pu (Perry) Wang
+          - Ryoma Yataka
+    affiliation: Mitsubishi Electric Research Laboratories (MERL)
     time: "14:45 - 15:30"
-    title: TBD
-    abstract: TBD
-    images: ICASSP25/350.jpeg
+    title: "Deep Learning for (Indoor) Radar Perception: Datasets, Benchmarks, and Algorithms"
+    abstract: (Indoor) radar perception has seen rising interest thanks to the affordability of high-resolution imaging radar sensors and the benefits of reduced privacy concerns and reliable performance under hazardous conditions like fire and smoke. Current radar perception pipelines often neglect distinctive radar characteristics, such as temporal and spatial consistency of objects and multi-view configurations. In this talk, we will provide an overview of the latest advances in deep learning for (indoor) radar perception from the perspectives of open datasets, public benchmarks, and state-of-the-art algorithms. We will also showcase our latest work on radar object detection, 2D/3D pose estimation, and instance segmentation, summarizing the findings from our latest publications in CVPR, ECCV, and NeurIPS.
+    images: 
+          - ICASSP25/pu_wang.jpeg
+          - ICASSP25/ryoma_yataka.jpeg
+    bios: 
+          - Pu (Perry) Wang is a Research Scientist at the Mitsubishi Electric Research Laboratories (MERL), Cambridge, MA, USA. His current research focuses on radar perception, wireless sensing, signal processing, Bayesian inference, deep learning, and their industrial applications. Throughout his career, he has made significant contributions to MIMO radar, automotive radar, Wi-Fi sensing and its standardization, and more recently, open-source radar perception for both indoor and outdoor environments. Dr. Wang received the IEEE Jack Neubauer Memorial Award from the IEEE Vehicular Technology Society in 2013 and was recognized as a Distinguished Speaker by SPWLA in 2017. He has held editorial roles for premier IEEE journals, including IEEE Signal Processing Magazine, IEEE Journal of Selected Topics in Signal Processing, IEEE Signal Processing Letters, and IEEE Transactions on Mobile Computing. He is also an active member of several IEEE Signal Processing Society (SPS) Technical Committees (SPTM, MLSP, and ASPS). He has organized special sessions and satellite workshops at ICASSP and SAM, and delivered tutorials at the IEEE Radar Conference and GLOBECOM.
+          - Ryoma Yataka received M.Eng. in Information Engineering from University of Tsukuba in 2017. Since 2017, he has worked for the Information Technology Research & Development center (ITC), Mitsubishi Electric Corporation, Kamakura, Kanagawa, Japan. He is currently a visiting researcher at MERL and is also currently a Ph.D. candidate at the Department of Computer Science, University of Tsukuba, Japan. His current research interests include machine learning, radar perception, geometric deep learning, computer vision, signal processing, and their applications.
 
     
 Instructors:
