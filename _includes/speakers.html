@@ -26,7 +26,7 @@
       padding-left: 30px;
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 5px;
     }
 
     .speaker-images {
@@ -61,7 +61,7 @@
     }
 
     .info-label {
-      font-weight: 700;
+      font-weight: 900;
       color: #2c3e50;
       min-width: 80px;
       display: inline-block;
@@ -145,7 +145,7 @@
           {{ talk.time }}
         </p>
         {% endif %}
-
+        <div style="height: 2rem;"></div>
         {% if talk.abstract %}
         <div class="speaker-abstract">
           <span class="info-label">Abstract:</span> 
