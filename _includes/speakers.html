@@ -55,14 +55,9 @@
     }
 
     .speaker-name {
-      font-weight: 600;
+      font-weight: 500;
       color: #2c3e50;
-      margin: 8px 0;
-    }
-
-    .speaker-affiliation {
-      color: #666;
-      font-size: 0.9em;
+      margin: 4px 0;
     }
 
     .info-label {
@@ -84,7 +79,7 @@
     }
 
     .bio-item {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .bio-item:last-child {
@@ -174,7 +169,6 @@
             <img src="{{ image | prepend: '/assets/img/' | relative_url }}" 
                  alt="{{ talk.names[forloop.index0] }}">
             <div class="speaker-name">{{ talk.names[forloop.index0] }}</div>
-            <p class="speaker-affiliation">{{ talk.affiliation }}</p>
           </div>
           {% endfor %}
         </div>
