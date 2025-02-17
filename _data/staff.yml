@@ -9,7 +9,9 @@ Speakers:
     images: 
           - ICASSP25/Sandeep_Rao.jpeg
           - ICASSP25/Rajan_Narasimha.jpeg
-
+    bios:
+          -  Sandeep Rao is with Texas Instruments(TI) where he leads an R&D group on mmWave signal processing. His research group works on identifying new applications for mmWave sensing and is actively involved in defining the next generation of TI mm-wave radar devices. He has a Masters from the University of Maryland and a Bachelors from the Indian Institute of Technology Madras. He has 30 granted patent (and an additional 20+ pending), in the field of mmWave sensing and GPS.
+          -  Rajan Narasimha holds a Bachelor's degree from IIT Bombay and a doctorate degree in Electrical Engineering from the University of Illinois, Urbana-Champaign (2011). He works for Texas Instruments as a senior technologist in Kilby Labs, Dallas. His activities in TI have spanned signal processing system and algorithm definition as well as embedded implementation for a variety of areas at the PHY layer such as SerDes communication, smart audio amplifiers and embedded control. His recent work has focused on system design for photo-diode arrays and sparse arrays and algorithms for mmWave radar. He has over 10 papers published in refereed conferences and journals and 14 granted US patents.
   - name: TBD
     affiliation: TBD
     time: "14:45 - 15:30"
