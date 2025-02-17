@@ -180,7 +180,7 @@
           <div class="bio-item">
             {% assign name = talk.names[forloop.index0] %}
             {% capture bold_name %}<strong>{{ name }}</strong>{% endcapture %}
-            {{ bio | replace: name, bold_name | markdownify }}
+            {{ bio | replace: name, bold_name | markdownify | remove: '<p>' | remove: '</p>' }}
           </div>
           {% endfor %}
         </div>
