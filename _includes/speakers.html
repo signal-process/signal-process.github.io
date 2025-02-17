@@ -19,19 +19,21 @@
     }
 
     .left-column {
-      border-right: 2px solid #eee;
       padding-right: 30px;
     }
 
     .right-column {
       padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
     }
 
     .speaker-images {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 25px;
-      margin-top: 25px;
+      margin-bottom: 20px;
     }
 
     .speaker-image {
@@ -65,12 +67,18 @@
       display: inline-block;
     }
 
-    .speaker-bios {
-      background: #f8f9fa;
-      padding: 18px;
-      border-radius: 6px;
-      margin-top: 20px;
+    .speaker-abstract {
       line-height: 1.6;
+      padding: 18px;
+      background: #f8f9fa;
+      border-radius: 6px;
+    }
+
+    .speaker-bios {
+      line-height: 1.6;
+      padding: 18px;
+      background: #f3f4f6;
+      border-radius: 6px;
     }
 
     @media (max-width: 992px) {
@@ -80,7 +88,6 @@
       }
       
       .left-column {
-        border-right: none;
         padding-right: 0;
         border-bottom: 2px solid #eee;
         padding-bottom: 25px;
@@ -101,12 +108,9 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     }
 
+    [data-theme="dark"] .speaker-abstract,
     [data-theme="dark"] .speaker-bios {
       background-color: #3a3a3a;
-    }
-
-    [data-theme="dark"] .left-column {
-      border-color: #444;
     }
 
     [data-theme="dark"] .info-label,
@@ -118,7 +122,7 @@
   {% for talk in site.data.staff.Speakers %}
   <div class="speaker-profile">
     <div class="info-columns">
-      <!-- 左栏：基础信息 -->
+      <!-- 左栏：摘要 -->
       <div class="left-column">
         {% if talk.title %}
         <p class="speaker-title">
@@ -134,23 +138,16 @@
         </p>
         {% endif %}
 
-        {% if talk.bios %}
-        <div class="speaker-bios">
-          <span class="info-label">Bios:</span> 
-          {{ talk.bios }}
+        {% if talk.abstract %}
+        <div class="speaker-abstract">
+          <span class="info-label">Abstract:</span> 
+          {{ talk.abstract }}
         </div>
         {% endif %}
       </div>
 
-      <!-- 右栏：摘要和演讲者信息 -->
+      <!-- 右栏：演讲者信息 -->
       <div class="right-column">
-        {% if talk.abstract %}
-        <p class="speaker-abstract">
-          <span class="info-label">Abstract:</span> 
-          {{ talk.abstract }}
-        </p>
-        {% endif %}
-
         <div class="speaker-images">
           {% for image in talk.images %}
           <div class="speaker-image">
@@ -161,6 +158,13 @@
           </div>
           {% endfor %}
         </div>
+
+        {% if talk.bios %}
+        <div class="speaker-bios">
+          <span class="info-label">Bios:</span> 
+          {{ talk.bios }}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>
