@@ -60,6 +60,11 @@
       margin: 8px 0;
     }
 
+    .speaker-affiliation {
+      color: #666;
+      font-size: 0.9em;
+    }
+
     .info-label {
       font-weight: 700;
       color: #2c3e50;
@@ -74,11 +79,23 @@
       border-radius: 6px;
     }
 
-    .speaker-bios {
+    .bios-container {
       line-height: 1.6;
-      padding: 18px;
-      background: #f3f4f6;
-      border-radius: 6px;
+    }
+
+    .bio-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .bio-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .bio-item strong {
+      color: #2c3e50;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.5rem;
     }
 
     @media (max-width: 992px) {
@@ -102,20 +119,23 @@
       }
     }
 
-    /* 夜间模式调整 */
+    /* 夜间模式 */
     [data-theme="dark"] .speaker-profile {
       background-color: #2d2d2d;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     }
 
-    [data-theme="dark"] .speaker-abstract,
-    [data-theme="dark"] .speaker-bios {
+    [data-theme="dark"] .speaker-abstract {
       background-color: #3a3a3a;
     }
 
-    [data-theme="dark"] .info-label,
+    [data-theme="dark"] .bio-item strong,
     [data-theme="dark"] .speaker-name {
       color: #e0e0e0;
+    }
+
+    [data-theme="dark"] .speaker-affiliation {
+      color: #b0b0b0;
     }
   </style>
 
@@ -160,9 +180,14 @@
         </div>
 
         {% if talk.bios %}
-        <div class="speaker-bios">
-          <span class="info-label">Bios:</span> 
-          {{ talk.bios }}
+        <div class="bios-container">
+          {% for bio in talk.bios %}
+          <div class="bio-item">
+            {% assign name = talk.names[forloop.index0] %}
+            {% capture bold_name %}<strong>{{ name }}</strong>{% endcapture %}
+            {{ bio | replace: name, bold_name | markdownify }}
+          </div>
+          {% endfor %}
         </div>
         {% endif %}
       </div>
