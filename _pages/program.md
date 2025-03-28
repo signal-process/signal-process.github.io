@@ -30,7 +30,7 @@ The detailed technical program of the workshop can be found [here](https://signa
 
 {% include schedule.html %}
 <div style="height:20px"></div>
-<h2 style="text-align: center; font-weight: bold;">Poster Session</h2>
+<h2 style="text-align: center; font-weight: bold;">Poster Session of Lightning Talks</h2>
 
 <p style="text-align: center; margin: 20px 0;">
   <strong>Time</strong>: 16:18 - 17:30 &emsp;&emsp;
