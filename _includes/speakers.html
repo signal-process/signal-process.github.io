@@ -89,6 +89,46 @@
     .bio-item:last-child {
       margin-bottom: 0;
     }
+    
+    /* 新增资料链接样式 */
+    .resources-section {
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+    }
+    
+    .resources-title {
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    
+    .resources-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    
+    .resource-link {
+      background-color: #f8f9fa;
+      padding: 8px 15px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+    }
+    
+    .resource-link:hover {
+      background-color: #e9ecef;
+      transform: translateY(-2px);
+    }
+    
+    .resource-link i {
+      margin-right: 5px;
+    }
 
     @media (max-width: 992px) {
       .info-columns {
@@ -109,6 +149,11 @@
       .speaker-images {
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
       }
+      
+      .resources-links {
+        flex-direction: column;
+        gap: 10px;
+      }
     }
 
     /* 夜间模式 */
@@ -128,6 +173,19 @@
 
     [data-theme="dark"] .speaker-affiliation {
       color: #b0b0b0;
+    }
+    
+    [data-theme="dark"] .resource-link {
+      background-color: #3a3a3a;
+      color: #6ca9f0;
+    }
+    
+    [data-theme="dark"] .resource-link:hover {
+      background-color: #4a4a4a;
+    }
+    
+    [data-theme="dark"] .resources-section {
+      border-top: 1px solid #444;
     }
   </style>
 
@@ -183,6 +241,21 @@
         {% endif %}
       </div>
     </div>
+    
+    
+    {% if talk.resources %}
+    <div class="resources-section">
+      <div class="resources-title">Related Resources:</div>
+      <div class="resources-links">
+        {% for resource in talk.resources %}
+          <a href="{{ resource.url }}" class="resource-link" target="_blank">
+            <i class="fas {% if resource.type == 'slides' %}fa-file-powerpoint{% elsif resource.type == 'dataset' %}fa-database{% elsif resource.type == 'code' %}fa-code{% elsif resource.type == 'paper' %}fa-file-pdf{% else %}fa-link{% endif %}"></i>
+            {{ resource.name }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
