@@ -12,7 +12,7 @@ The detailed technical program of the workshop can be found [here](https://signa
 
 <p style="text-align: center; margin: 20px 0;">
 <strong>Time</strong>: 14:00 - 15:30 &emsp;&emsp;
-<strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
+<strong>Chair</strong>: Robin Rajamäki
 </p>
 
 {% include speakers.html %}
@@ -25,7 +25,7 @@ The detailed technical program of the workshop can be found [here](https://signa
 
 <p style="text-align: center; margin: 20px 0;">
   <strong>Time</strong>: 16:00 - 16:18 &emsp;&emsp;
-  <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
+  <strong>Chair</strong>: Robin Rajamäki
 </p>
 
 {% include schedule.html %}
@@ -34,6 +34,6 @@ The detailed technical program of the workshop can be found [here](https://signa
 
 <p style="text-align: center; margin: 20px 0;">
   <strong>Time</strong>: 16:18 - 17:30 &emsp;&emsp;
-  <strong>Chair</strong>: Chun-Lin Liu, Robin Rajamäki
+  <strong>Chair</strong>: Robin Rajamäki
 </p>
 <div style="height:50px"></div>
